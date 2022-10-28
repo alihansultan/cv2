@@ -1,0 +1,82 @@
+.top-container {
+  background-color: #B8E8FC;
+  padding: 100px;
+  position: relative;
+}
+
+.middle-container {
+  padding: 30px;
+}
+
+.bottom-container {
+  padding: 30px;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+.yazilimci {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 320px;
+  bottom: 380px;
+}
+
+.bottom-cloud2 {
+  position: absolute;
+  left: 1000px;
+  bottom: 350px;
+}
+
+.developer-picture {
+  border-radius: 50%;
+  height:500px;
+  width:500px;
+}
+
+.profile {
+  margin: 50px 0;
+}
+
+.skill-row {
+  margin: 50px 0;
+}
+
+.tennis-picture {
+  height: 300px;
+  width: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.top-cloud2 {
+  position: absolute;
+  left: 160px;
+}
