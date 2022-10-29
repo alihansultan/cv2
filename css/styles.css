@@ -12,62 +12,92 @@
   padding: 30px;
 }
 
+a {
+  color: #3E6D9C;
+}
+
 body {
   font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
+
 }
 
 h1 {
+  color: #3E6D9C;
   font-family: 'Sacramento', cursive;
-  margin-top: 0;
+  font-size: 4.375rem;
+  margin: 50px auto 0 auto ;
+
 }
 
 h2 {
+  color: #3E6D9C;
   font-family: 'Montserrat', sans-serif;
+  font-size: 1.5625rem;
+  font-weight: normal;
 }
 
 h3 {
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
 
 p {
   line-height: 2;
+
+
 }
+
+
 
 .yazilimci {
   text-decoration: underline;
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 320px;
   bottom: 380px;
+  left: 320px;
+  position: absolute;
+
 }
 
 .bottom-cloud2 {
-  position: absolute;
-  left: 1000px;
+
   bottom: 350px;
+  left: 1000px;
+  position: absolute;
+
 }
 
 .developer-picture {
   border-radius: 50%;
-  height:500px;
-  width:500px;
+  float: left;
+  margin-right: 30px;
+  width: 170px;
 }
 
 .profile {
-  margin: 50px 0;
+  margin: 50px auto;
+  width: 70%;
+}
+
+.skills {
+  margin-bottom: 100px;
 }
 
 .skill-row {
-  margin: 50px 0;
+  margin: 50px auto;
+  text-align: left;
+  width: 50%;
+
 }
 
 .tennis-picture {
-  height: 300px;
-  width: 300px;
+  float: right;
+  margin-left: 30px;
+
+  width: 170px;
 }
 
 .top-cloud {
@@ -77,6 +107,7 @@ p {
 }
 
 .top-cloud2 {
-  position: absolute;
   left: 160px;
+
+  position: absolute;
 }
